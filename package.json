@@ -1,0 +1,27 @@
+{
+	"name": "url-shortener-simple",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/t1mofe1/url-shortener-simple.git"
+	},
+	"keywords": [],
+	"author": "T1mofe1",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/t1mofe1/url-shortener-simple/issues"
+	},
+	"homepage": "https://github.com/t1mofe1/url-shortener-simple#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"firebase-admin": "^10.0.0",
+		"nanoid": "^3.1.30",
+		"valid-url": "^1.0.9"
+	}
+}
